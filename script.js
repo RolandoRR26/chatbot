@@ -29,5 +29,5 @@ function addMessage(text, sender) {
 
 function generateResponse(userText) {
     const botResponse = responses[userText] || 'Lo siento, no entiendo esa pregunta.';
-    setTimeout(() => addMessage(botResponse, 'bot'), 500);  // Añade un pequeño retraso para hacer el bot más realista
+    setTimeout(() => addMessage(botResponse, 'bot'), 500);  //pequeño delay para simular que piensa 
 }
